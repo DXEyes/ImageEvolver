@@ -37,7 +37,7 @@ public class ColorGon extends Polygon{
         this.ypoints[v]=(int)(Math.random()*h);
     }
     private void changeColor(){
-        color=new Color((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*180));
+        color=new Color((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*150));
     }
     public ColorGon duplicate(){
         ColorGon c=new ColorGon(this.npoints,w,h);
